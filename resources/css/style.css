@@ -1,0 +1,47 @@
+/*Universal Styles */
+html, body {
+  font-size: 18px;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header Section */
+
+header {
+  height: 80rem;
+  width: 100%;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 64px;
+  background-color: white;
+  color: black;
+}
+
+nav div {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  height: 32px;
+}
+
+nav ul {
+  margin-right: 1rem;
+}
+
+nav li {
+  font-size: 32px;
+  display: inline;
+  color: gray;
+  text-align: right;
+  justify-content: space-between;
+}
+
+.truncated-menu {
+   display: none;
+}
