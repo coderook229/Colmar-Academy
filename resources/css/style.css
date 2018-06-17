@@ -58,6 +58,11 @@ nav li {
   padding: 32px 24px;
 }
 
+.title h1 {
+  float: right;
+
+}
+
 .title {
   color: gray;
   padding-left: 24px;
